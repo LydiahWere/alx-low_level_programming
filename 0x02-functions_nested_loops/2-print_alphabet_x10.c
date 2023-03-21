@@ -2,6 +2,7 @@
 /**
  * print _alphabet_x10 - print the alphabet 10times in
  *lowercase followed by new line
+ * Return: always 0 (success)
  */
 
 void print_alphabet_x10(void)
