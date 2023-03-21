@@ -16,7 +16,7 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{
-		putchar('48');
+		putchar(48);
 		return (0);
 	}
 	else
