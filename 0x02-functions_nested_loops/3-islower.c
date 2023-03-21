@@ -5,7 +5,7 @@
  * Return: 1 if char is lower, otherwise 0.
  */
 
-int_islower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
