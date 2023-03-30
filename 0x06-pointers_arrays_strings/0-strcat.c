@@ -3,7 +3,7 @@
 /**
  * _strcat - write a function that concatenates two strings
  *
- * main - this is the output dest
+ * @dest: - this is the output dest
  * @src: this is the input source
  *
  * Return: this return to dest, that concatenates two sstrings
@@ -11,7 +11,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i,j;
+	int i, j;
 
 	for (i = 0; dest[i] != '\0'; i++)
 		;
