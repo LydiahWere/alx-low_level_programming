@@ -6,7 +6,6 @@
  * @entry: this is the input string
  *
  * Return: string capitalized
- *
  */
 
 char *cap_string(char *entry)
@@ -28,10 +27,11 @@ char *cap_string(char *entry)
 		{
 			if (chars[count] == entry[index])
 			{
-				conversion =  32;
+				conversion = 32;
 				break;
 			}
 		}
 	}
+
 	return (entry);
 }
